@@ -10,6 +10,12 @@
 ![image](https://github.com/waitingSu/CSRF-AntiForgery/assets/67044426/1dd8f063-4ac4-4f03-865d-ec0892c6be5a)
 
       為了防堵被掃出來的弱點，在這次的處理上就使用了AntiForgery的方法來進行處理，AntiForgery是微軟提出用來防堵CSRF的技術，
-透過
-  
+在ASP.NET MVC中使用AntiForgery token，或稱request verification tokens，主要流程為:
+
+1.客戶端請求一個包含form的HTML頁面。
+2.伺服器在回應中須包含兩個tokens。一個token作為cookie發送。另一個則在隱藏的form字段中。令牌是隨機生成的，因此攻擊者無法猜測其值。
+3.當客戶端提交提form時，它必須將兩個token發送回伺服器端。客戶端將cookie token作為cookie發送，並在form中發送form token。（當用戶提交表單時，瀏覽器客戶端會自動執行此操作。）
+4.如果請求不包含這兩個tokens，伺服器端將不允許該請求。
+
+
 

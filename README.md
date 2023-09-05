@@ -13,6 +13,4 @@
       為了防堵被掃出來的弱點，在這次的處理上就使用了AntiForgery的方法來進行處理，AntiForgery是微軟提出用來防堵CSRF的技術，
 透過
   
-```markdown
 
-```

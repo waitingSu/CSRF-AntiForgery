@@ -6,9 +6,10 @@
   這屬於web身分驗證的漏洞，指的是該身分驗證是由特定瀏覽器所發出但是卻不能保證為是真正使用者本身發出的。
       ![image](https://github.com/waitingSu/CSRF-AntiForgery/assets/67044426/4d33530f-3c0f-4839-8507-782bd5118e05)
 
-      ![image](https://github.com/waitingSu/CSRF-AntiForgery/assets/67044426/a70b244a-5663-48ca-93cf-1578efd0e18a)
+      ![image](https://github.com/waitingSu/CSRF-AntiForgery/assets/67044426/1dd8f063-4ac4-4f03-865d-ec0892c6be5a)
+
 
   
 ```markdown
 
-```![image](https://github.com/waitingSu/CSRF-AntiForgery/assets/67044426/4d33530f-3c0f-4839-8507-782bd5118e05)
+```

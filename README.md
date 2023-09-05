@@ -9,7 +9,7 @@
 
 ![image](https://github.com/waitingSu/CSRF-AntiForgery/assets/67044426/1dd8f063-4ac4-4f03-865d-ec0892c6be5a)
 
-      為了防堵被掃出來的弱點，在這次的處理上就使用了AntiForgery的方法來進行處理，AntiForgery是微軟提出用來防堵CSRF的技術，
+為了防堵被掃出來的弱點，在這次的處理上就使用了AntiForgery的方法來進行處理，AntiForgery是微軟提出用來防堵CSRF的技術，
 在ASP.NET MVC中使用AntiForgery token，或稱request verification tokens，主要流程為:
 
 1.客戶端請求一個包含form的HTML頁面。
